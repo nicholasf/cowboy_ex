@@ -1,7 +1,5 @@
 # CowboyEx
 
-** TODO: Add description **
-
 An example app setting up Cowboy in Elixir.
 
 ```
