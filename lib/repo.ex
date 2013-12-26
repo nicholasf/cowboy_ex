@@ -6,6 +6,6 @@ defmodule CowboyEx.Repo do
   end
 
   def priv do
-    app_dir(:gtn, "priv/repo")
+    app_dir(:cowboy_ex, "priv/repo")
   end
 end
