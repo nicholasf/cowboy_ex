@@ -9,6 +9,7 @@ defmodule CowboyEx.Supervisor do
     children = [
       # Define workers and child supervisors to be supervised
       # worker(CowboyEx.Worker, [])
+      worker(CowboyEx.Repo, [])
     ]
 
     # See http://elixir-lang.org/docs/stable/Supervisor.Behaviour.html
